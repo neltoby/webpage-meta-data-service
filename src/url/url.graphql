@@ -1,0 +1,9 @@
+type Query {
+  url(uri: String!): Url
+}
+
+type Url {
+  title: String,
+  description: String,
+  image: String
+}
